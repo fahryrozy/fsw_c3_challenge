@@ -7,10 +7,20 @@
     <title>Binar-challenge-FW-C3</title>
     <link rel="stylesheet" href="style.css" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
+    />    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -30,7 +40,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav1">
-      <a class="navbar-brand w-25 text-center" href="#">LOGO</a>
+      <a class="navbar-brand w-25 text-center fs-2" href="#">LOGO</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -46,42 +56,36 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto w-50">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#"
-              >HOME <span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link text-white fs-6" href="#">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">WORK</a>
+            <a class="nav-link text-white fs-6" href="#">WORK</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">CONTACT</a>
+            <a class="nav-link text-white fs-6" href="#">CONTACT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">ABOUT ME</a>
+            <a class="nav-link text-white fs-6" href="#">ABOUT ME</a>
           </li>
         </ul>
 
         <ul class="navbar-nav w-25">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">SIGN UP</a>
+            <a class="nav-link text-white fs-6" href="#">SIGN UP</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">LOGIN</a>
+            <a class="nav-link text-white fs-6" href="#">LOGIN</a>
           </li>
-          <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-          />
         </ul>
       </div>
     </nav>
 
     <!-- Section 1 -->
     <section class="section-1">
-      <h1>PLAY TRADITIONAL GAME</h1>
-      <h3>Experience new traditional game play</h3>
-      <button>PLAY NOW</button>
-      <p>THE STORY</p>
+      <h1 class="text-white mb-4">PLAY TRADITIONAL GAME</h1>
+      <h3 class="text-white fs-4 mb-4">Experience new traditional game play</h3>
+      <button class="btn btn-warning px-lg-5 my-5">PLAY NOW</button>
+      <p class="mt-5">THE STORY</p>
       <span class="text-white"><i class="bi bi-caret-down-fill"></i></span>
     </section>
 
@@ -89,11 +93,11 @@
     <section class="section-2">
       <div class="align-self-center">
         <div class="special-label-card">
-          <h3 class="text-left">What's so special?</h3>
+          <h3 class="text-left text-white">What's so special?</h3>
         </div>
         <div>
           <div class="carousel-wrapper">
-            <h1 class="the-game-label">THE GAMES</h1>
+            <h1 class="text-white">THE GAMES</h1>
             <div
               id="carouselExampleIndicators"
               class="carousel slide carousel-card"
@@ -173,27 +177,27 @@
         <div class="container my-5 ml-auto">
           <div class="row">
             <div class="col-md-10 offset-md-2">
-              <h3 class="text-left">What's so special?</h3>
-              <h1 class="text-left">FEATURES</h1>
+              <h3 class="text-left text-white">What's so special?</h3>
+              <h1 class="text-left text-white">FEATURES</h1>
             </div>
           </div>
           <div class="row">
             <div class="col-md-10 offset-md-2">
               <ul class="timeline-3">
                 <li>
-                  <a href="#!">TRADITIONAL GAMES</a>
-                  <p class="mt-2">
+                  <a class="fs-5" href="#!">TRADITIONAL GAMES</a>
+                  <p class="mt-2 fs-6">
                     If you miss your childhood, we provide many traditional
                     games here
                   </p>
                 </li>
                 <li>
-                  <a href="#!">GAME SUITES</a>
+                  <a class="fs-5" href="#!">GAME SUITES</a>
                 </li>
               </ul>
               <ul class="timeline-3">
                 <li>
-                  <a href="#!">TBD</a>
+                  <a class="fs-6" href="#!">TBD</a>
                 </li>
               </ul>
             </div>
@@ -304,6 +308,174 @@
     </section>
 
     <!-- Section-5 -->
-    <section class="section-5"></section>
+    <section class="section-5">
+      <div
+        class="container align-self-center flex-row d-flex flex-row align-items-center"
+      >
+        <div class="container w-50 px-5">
+          <h1 class="text-white">TOP SCORES</h1>
+          <h3 class="my-4 text-white fs-6">
+            This top score from various games provided on this platform
+          </h3>
+          <button class="btn btn-warning px-lg-5">see more</button>
+        </div>
+        <div class="container w-50">
+          <div class="card card-twitter ml-5">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="./assets/photo-1.png" />
+                </div>
+                <div class="col-md-8">
+                  <h5 class="card-title fs-4">Evan Lathi</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">PC Gamer</h6>
+                </div>
+              </div>
+              <div class="row my-2">
+                <p class="card-text text-white">
+                  “One of my gaming highlights of the year.”
+                </p>
+              </div>
+              <div class="row">
+                <p class="text-white-50">June 18, 2021</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-twitter mr-5">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="./assets/photo-2.png" />
+                </div>
+                <div class="col-md-8">
+                  <h5 class="card-title">Jada Griffin</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Nerdreactor</h6>
+                </div>
+                <div class="row my-2">
+                  <p class="card-text text-white">
+                    “The next big thing in the world of streaming and survival
+                    games.”
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="text-white-50">July 10, 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-twitter ml-5">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="./assets/photo-3.png" />
+                </div>
+                <div class="col-md-8">
+                  <h5 class="card-title">Aaroon Williams</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Uproxx</h6>
+                </div>
+                <div class="row my-2">
+                  <p class="card-text text-white">
+                    “Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is
+                    Ridiculous.”
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="text-white-50">December 24, 2018</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section-6 -->
+    <section class="section-6">
+      <div
+        class="container align-self-center flex-row d-flex flex-row align-items-center"
+      >
+        <div class="container w-50 px-5">
+          <img src="./assets/image.png" />
+        </div>
+        <div class="container w-50">
+          <h3 class="text-white fs-6">Want to stay in touch?</h3>
+          <h1 class="text-white">NEWSLETTER SUBSCRIBE</h1>
+          <h3 class="text-white fs-6">
+            In order to start receiving our news, all you have to do is enter
+            your email address. Everything else will be taken care of by us. We
+            will send you emails containing information about game. We don’t
+            spam.
+          </h3>
+          <div class="row my-5">
+            <div class="col-md-8 ml-0 mr-0">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+            </div>
+            <div class="col-md-4 ml-0">
+              <button class="btn btn-warning px-3 py-3">Subscribe Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="page-footer font-small pt-4 px-5">
+      <div class="container-fluid text-center text-md-left">
+          <ul class="d-flex flex-row justify-content-end list-unstyled">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"
+                >HOME <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">MAIN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">GAME FEATURES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">SYSTEM REQUIREMENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">QUOTES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #f00;"><i class="bi bi-youtube"></i></a>
+            </li>
+            <a class="nav-item">
+              <a class="nav-link text-white" href="#"><i class="bi bi-chat-square-dots-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+      <hr class="text-white bg-white" />
+
+      <div class="footer-copyright d-flex flex-row">
+        <div class="col-md-6">
+          <p class="text-white">
+        © 2018 Your Games, Inc. All Rights Reserved</p>
+        </div>
+        <div class="col-md-6">
+          <p class="text-white text-end">
+        Privacy Policy | Terms of Services | Code of Conduct </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
